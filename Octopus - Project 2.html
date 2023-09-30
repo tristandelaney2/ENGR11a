@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Project 2</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body style="background-color: #DFDFDF ">
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#!">ENGR11a Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <!--li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li-->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page header with logo and tagline-->
+        <header class="py-5 purple-light border-bottom mb-4" style="background-color: #dec1fb">
+            <div class="container">
+                <div class="text-center my-5">
+                    <h1 class="fw-bolder">3D Print Octopus</h1>
+                    <!--p class="lead mb-0">Follow along with me, <span ><strong> TRISTAN B </strong></span> ,  as I go through Brandeis Uni's first engineering class!</p-->
+                </div>
+            </div>
+        </header>
+        <!-- Page content-->
+        <div class="container">
+            <div class="row">
+                <!-- Blog entries-->
+                    </div>
+                    <div class="col-lg-12">
+                    </div>
+                     <button onclick="window.location.href='index.html';">Home</button>
+                    <!-- Nested row for non-featured blog posts-->
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6">
+                            
+                         <!-- Blog post-->
+                            <div class="card mb-4">
+                                <a href="#!"><img class="card-img-top" src="images/Sketch.jpg" alt="..." /></a>
+                                <a href="#!"><img class="card-img-top" src="images/TinkerCAD.jpg" alt="..." /></a>
+                                <div class="card-body">
+                                    <div class="small text-muted">January 1, 2023</div>
+                                    <h2 class="card-title h4"> Octopus Sketch</h2>
+                                        <p class="card-text">
+                                           For this project, the goal was to 3D print different objects together using TinkerCAD or Fusion360 to create a new function for the object. I decided to 3D print an octopus with tentacles to hold the TV and LED remotes for my apartment. First, I started by sketching the pieces I found on thangs.com and thingiverse.com. I used one octopus body, then added two “phone holder” tentacles to both sides. Then I found two larger limbs to hold my thicker tv remote. Starting with TinkerCAD, I tried to create holes over the original tentacles of the octopus then group this together with the tentacle phone holder. This created weird gaps and shapes in my design, so I attempted to use other shapes such as semi circles and cylinders to cover the edges.
+                                        </p>
+                                    <!--a class="btn btn-primary" href="#!">Read more →</a-->
+                                </div>
+                            </div>
+
+                        <!-- Blog post-->
+                            <div class="card mb-4">
+                                <a href="#!"><img class="card-img-top" src="images/Draft 1 Support.jpg" alt="..." /></a>
+                                <a href="#!"><img class="card-img-top" src="images/So much support.jpg" alt="..." /></a>
+                                <div class="card-body">
+                                    <div class="small text-muted">January 1, 2023</div>
+                                    <h2 class="card-title h4"> Octopus Draft 1: Support</h2>
+                                        <p class="card-text">
+                                           When I went to print my first draft, I was rushed so I did not really mess with the settings other than “apply supports everywhere”. This print took a whopping 27 hours. Not only was it extremely stringy, but the support was so prevalent and impossible to take off without breaking most of the tentacles. I knew my second draft needed adjustments with the supports in Prusa.
+                                        </p>
+                                    <!--a class="btn btn-primary" href="#!">Read more →</a-->
+                                </div>
+                            </div>
+                              
+                        <!-- Blog post-->
+                            <div class="card mb-4">
+                                <a href="#!"><img class="card-img-top" src="images/Organic supports.jpg" alt="..." /></a>
+                                 <a href="#!"><img class="card-img-top" src="images/Heat settings Draft 2.jpg" alt="..." /></a>
+                                <div class="card-body">
+                                    <div class="small text-muted">January 1, 2023</div>
+                                    <h2 class="card-title h4"> Octopus Draft 2: Organic Support</h2>
+                                        <p class="card-text">
+                                           When I went to print my second draft, I took more time to go over the settings in Prusa slicer. First I reduced my temperature from 215 degrees to 205 degrees after the first layer. This was very successful in reducing the stringing. I found out it was important to keep the first layer at the suggested 215 temperature as this ensures the PLA sticks to the build plate to create the foundation for the rest of the print. Next I changed my fill pattern from “gyroid” to “rectilinear”. This did not make an impact on the final product, however it helped with reducing my print time. Then I focused my attention on the supports. First I changed the support type from “grid” to “organic”; this made tree-like structures that were not as thick and branched all around different parts of the octopus. This structure was much easier to pull off as it wasn’t as thick and prevalent. Next, I changed the supports from a 0.2 to a 0.4 Z distance from contact with the print. This gave more space between the print and the support material, making it much easier to separate. Lastly with the support, I changed the setting from “support everywhere” to “support on build plate only”, this prevented support from encapsulating my octopus which caused it to break the first time I attempted to take off supports. These changes greatly reduced my print time as there was much less material, it only took 17 hours.
+                                        </p>
+                                    <!--a class="btn btn-primary" href="#!">Read more →</a-->
+                                </div>
+                            </div>
+                       
+                            <!-- Blog post-->
+                            <div class="card mb-4">
+                                <a href="#!"><img class="card-img-top" src="images/Joints.jpg" alt="..." /></a>
+                                 <a href="#!"><img class="card-img-top" src="images/Hole in 2.jpg" alt="..." /></a>
+                                <div class="card-body">
+                                    <div class="small text-muted">January 1, 2023</div>
+                                    <h2 class="card-title h4"> Octopus Draft 2: Connections</h2>
+                                        <p class="card-text">
+                                           For the second draft, I added more tentacles to the octopus and used spheres to cover the gaps instead. This was more efficient in making the connections more smooth, however it left large bulb-like structures where the joints were connected. It was also really hard to visualize the holes when cutting out the original tentacles in TinkerCAD which left me with a big gap in the back side of the octopus; I thought I had used a cylinder and sliced it properly to fit but it left a gap in my print. 
+                                        </p>
+                                    <!--a class="btn btn-primary" href="#!">Read more →</a-->
+                                </div>
+                            </div>
+                            <!-- Blog post-->
+                            <div class="card mb-4">
+                                <a href="#!"><img class="card-img-top" src="images/Functional Octopus 2.jpg" alt="..." /></a>
+                                <div class="card-body">
+                                    <div class="small text-muted">January 1, 2023</div>
+                                    <h2 class="card-title h4"> Octopus Draft 2: Functional</h2>
+                                        <p class="card-text">
+                                           Here is an image of my second draft octopus performing its duty of holding my remotes. It could also function as a phone stand for making tik toks, taking selfies, or even charging your phone. Overall, the function worked well! I decided I could increase the height of the “phone holder” tentacles to have a deeper pocket for the remotes so they wouldn’t fall over the edge.
+                                        </p>
+                                    <!--a class="btn btn-primary" href="#!">Read more →</a-->
+                                </div>
+                            </div>
+                             
+                         
+                           
+
+                            <!-- Blog post-->
+                            <div class="card mb-4">
+                                <a href="#!"><img class="card-img-top" src="images/Using Text.jpg" alt="..." /></a>
+                                <div class="card-body">
+                                    <div class="small text-muted">January 1, 2023</div>
+                                    <h2 class="card-title h4"> Octopus Draft 3: Using Text via Prusa </h2>
+                                        <p class="card-text">
+                                           The last thing I wanted to do with my octopus was explore how to add text. I began by trying this in Fusion360, but quickly realized that this tool was too advanced for my skills at the moment. So I actually learned that this could be done in Prusa Slicer! This was extremely effective as I could type the text I wanted, then snap it right onto the structure where I wanted it. Although I did have some issues with the actual connection of the text to the print as some of the text was pulled off with the support material. I think I could troubleshoot this by making the text thinner or smaller so more of it is connected to the physical print, or I could even try inverting the words so it's “cut out” of the print rather than extruding from it. 
+                                        </p>
+                                    <!--a class="btn btn-primary" href="#!">Read more →</a-->
+                                </div>
+                            </div>
+                               
+
+                            <!-- Blog post-->
+                            <div class="card mb-4">
+                                <a href="#!"><img class="card-img-top" src="images/Better joints.jpg" alt="..." /></a>
+                                <a href="#!"><img class="card-img-top" src="images/Meshmixer.jpg" alt="..." /></a>
+                                <div class="card-body">
+                                    <div class="small text-muted">January 1, 2023</div>
+                                    <h2 class="card-title h4"> Octopus Draft 3: MeshMixer for better connections </h2>
+                                        <p class="card-text">
+                                           Although my second draft performed its function, I was unsatisfied with the messy look of the connections I had made in TinkerCAD. Therefore, I began to explore Meshmixer. This tool allowed me to actually push, pull, smooth, and morph the shape of my object - almost like virtual clay! This was a super cool feature and was very satisfying to make my Frankenstein octopus look seamless. 10/10 recommend! 
+                                        </p>
+                                    <!--a class="btn btn-primary" href="#!">Read more →</a-->
+                                </div>
+                            </div>
+                              
+
+                            <!-- Blog post-->
+                            <div class="card mb-4">
+                                <a href="#!"><img class="card-img-top" src="images/Thicker lines.jpg" alt="..." /></a>
+                                <a href="#!"><img class="card-img-top" src="images/Draft 2 and 3 comparison.jpg" alt="..." /></a>
+                                <div class="card-body">
+                                    <div class="small text-muted">January 1, 2023</div>
+                                    <h2 class="card-title h4"> Comparison and Reflection </h2>
+                                        <p class="card-text">
+                                           When I went to print my third draft, I couldn’t find my documentation of the settings other than the infill, temperature, and support. So I actually had to make some guesses as to what the other settings were including layer thickness. This draft used a layer thickness of 0.35. While I’m not sure what I used for the second draft, this produced lines that were much thicker and bulkier, unlike my draft two which was thin and smooth. If I were to do another print, I would definitely try to decrease the layer thickness, possibly to 0.25. However, it is incredible to see the side by side comparison and see the difference Meshmixer made on the physical structure. I wonder if all the morphing of my object is what caused these thicker and less smooth layers. Overall this project was very fun, getting to learn different tools as well as how to design in steps rather than from scratch, which could have been very overwhelming. If I were to try another draft, which I might, I would probably try to push the text inward rather than extrude it, and I would try to smooth out the layers using some tool in Prusa, although I’m not quite sure how just yet. I’m satisfied with the function of my prints as they do exactly what I hoped, and I hope I can continue to hone in my 3D design and printing skills!
+                                        </p>
+                                    <!--a class="btn btn-primary" href="#!">Read more →</a-->
+                                </div>
+                            </div>
+                                </div>
+                            </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                        </div>
+                    <div >
+                    <!-- Pagination -->
+                    <!--nav aria-label="Pagination">
+                        <hr class="my-0" />
+                        <ul class="pagination justify-content-center my-4">
+                            <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1" aria-disabled="true">Newer</a></li>
+                            <li class="page-item active" aria-current="page"><a class="page-link" href="#!">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#!">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#!">3</a></li>
+                            <li class="page-item disabled"><a class="page-link" href="#!">...</a></li>
+                            <li class="page-item"><a class="page-link" href="#!">15</a></li>
+                            <li class="page-item"><a class="page-link" href="#!">Older</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- Side widgets
+                <div class="col-lg-4">
+                    Search widget
+                    <div class="card mb-4">
+                        <div class="card-header">Search</div>
+                        <div class="card-body">
+                            <div class="input-group">
+                                <input class="form-control" type="text" placeholder="Enter search term..." aria-label="Enter search term..." aria-describedby="button-search" />
+                                <button class="btn btn-primary" id="button-search" type="button">Go!</button>
+                            </div>
+                        </div>
+                    </div>
+                    -->
+
+                    <!-- Categories widget -->
+                    <!--div class="card mb-4">
+                        <div class="card-header">Categories</div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <ul class="list-unstyled mb-0">
+                                        <li><a href="#!">Web Design</a></li>
+                                        <li><a href="#!">HTML</a></li>
+                                        <li><a href="#!">Freebies</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-6">
+                                    <ul class="list-unstyled mb-0">
+                                        <li><a href="#!">JavaScript</a></li>
+                                        <li><a href="#!">CSS</a></li>
+                                        <li><a href="#!">Tutorials</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Side widget
+                    <div class="card mb-4">
+                        <div class="card-header">Side Widget</div>
+                        <div class="card-body">You can put anything you want inside of these side widgets. They are easy to use, and feature the Bootstrap 5 card component!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    -->
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; TB's 3D Prints 2023</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
